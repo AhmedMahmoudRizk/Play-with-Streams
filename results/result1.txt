@@ -1,0 +1,1 @@
+total number of records =  0, total number of trips =  0, the given month is : 0 averageTripPerDay for the this month = 0.0 , distinctVehicles =  0, Woodside,Queens Yellow = 0, Woodside,Queens Green = 0, Woodside,Queens FHV = 0

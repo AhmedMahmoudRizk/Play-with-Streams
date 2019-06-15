@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.BarChart?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="942.0" prefWidth="1429.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="play_java_websocket_server.ReportsController">
+   <children>
+      <ChoiceBox fx:id="month" layoutX="657.0" layoutY="164.0" prefWidth="150.0" />
+      <BarChart fx:id="dataBars" layoutX="15.0" layoutY="200.0" prefHeight="725.0" prefWidth="1407.0" style="-fx-background-color: #ffffff;">
+        <xAxis>
+          <CategoryAxis side="BOTTOM" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis side="LEFT" />
+        </yAxis>
+      </BarChart>
+      <ButtonBar layoutX="-7.0" layoutY="76.0" prefHeight="40.0" prefWidth="1336.0">
+        <buttons>
+          <Button fx:id="numOfTripsBtn" mnemonicParsing="false" onMouseClicked="#handleTripsPerDayBar" text="# of Trips" />
+            <Button mnemonicParsing="false" onMouseClicked="#handleAvrgvendPerDayBar" text="avg vehicle" />
+            <Button mnemonicParsing="false" onMouseClicked="#handleDropOffBar" prefHeight="26.0" prefWidth="101.0" text="no drop off" />
+            <Button mnemonicParsing="false" onMouseClicked="#handleAvrgMinutePerTripBar" text="min per trip" />
+            <Button mnemonicParsing="false" onMouseClicked="#handleMadBroBar" prefHeight="26.0" prefWidth="225.0" text="trips from mad,brook" />
+        </buttons>
+      </ButtonBar>
+   </children>
+</AnchorPane>

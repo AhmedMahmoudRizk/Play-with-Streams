@@ -1,0 +1,1 @@
+total number of records =  14308, total number of trips =  14308, the given month is : 11 averageTripPerDay for the this month = 475.7 , distinctVehicles =  87, Woodside,Queens Yellow = 7, Woodside,Queens Green = 117, Woodside,Queens FHV = 130
