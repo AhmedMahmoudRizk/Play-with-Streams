@@ -25,7 +25,7 @@ import javafx.util.Duration;
 /**
  * FXML Controller class
  *
- * @author Yahia
+ * @author Rizk
  */
 public class ReportsController implements Initializable {
 
